@@ -20,7 +20,10 @@ namespace Fantasy_Game
         SpriteBatch spriteBatch;
 
         //Game Variables
+        Player playerObj;
+        Texture2D testBackground;
 
+        int currentLevel = 1; //up to 5 levels
 
         public Game1()
             : base()
@@ -52,6 +55,7 @@ namespace Fantasy_Game
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            testBackground = Content.Load<Texture2D>("blue_sky_05");
         }
 
         /// <summary>
@@ -87,6 +91,9 @@ namespace Fantasy_Game
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+                        
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
