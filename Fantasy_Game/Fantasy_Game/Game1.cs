@@ -117,8 +117,9 @@ namespace Fantasy_Game
             spriteBatch.Draw(Spider);
             spriteBatch.Draw(Bat);
             spriteBatch.Draw(Wolf);
-            spriteBatch.Draw(Slime);
-            spriteBatch.End();*/
+            spriteBatch.Draw(Slime); */
+            spriteBatch.Draw(testBackground, Vector2.Zero, Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
