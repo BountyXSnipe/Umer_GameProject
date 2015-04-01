@@ -23,3 +23,5 @@ C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\W
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.csprojResolveAssemblyReference.cache
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.exe
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb
+C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.exe
+C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb

@@ -21,8 +21,28 @@ namespace Fantasy_Game
 
         //Game Variables
         Player playerObj;
-        Texture2D testBackground;
 
+        //Textures
+        //Backgrounds
+        Texture2D testBackground;
+        //Entities
+        Texture2D Dragon;
+        Texture2D Spider;
+        Texture2D Bat;
+        Texture2D Wolf;
+        Texture2D Slime;
+
+        //Time
+        float fTimeIntervalSecs;
+
+        //Physics Engine
+        float pos;
+        float vel;
+        float accel;
+        float mass;
+        float force;
+
+        //Level
         int currentLevel = 1; //up to 5 levels
 
         public Game1()
@@ -54,24 +74,26 @@ namespace Fantasy_Game
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+
+
             // TODO: use this.Content to load your game content here
+
             testBackground = Content.Load<Texture2D>("blue_sky_05");
+            //Load Entities
+            /*Dragon = Content.Load<Texture2D>("Dragon");
+            Spider = Content.Load<Texture2D>("Spider");
+            Bat = Content.Load<Texture2D>("Bat");
+            Wolf = Content.Load<Texture2D>("Wolf");
+            Slime = Content.Load<Texture2D>("Slime");*/
         }
 
-        /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// all content.
-        /// </summary>
+        //Unload content method
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
         }
 
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        //Update method
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
@@ -79,21 +101,24 @@ namespace Fantasy_Game
 
             // TODO: Add your update logic here
 
+            fTimeIntervalSecs = ((float)gameTime.ElapsedGameTime.Milliseconds) / 1000.0f;
+
             base.Update(gameTime);
         }
 
-        /// <summary>
-        /// This is called when the game should draw itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        //Draw method
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-                        
-            spriteBatch.End();
+            /*spriteBatch.Draw(Dragon);
+            spriteBatch.Draw(Spider);
+            spriteBatch.Draw(Bat);
+            spriteBatch.Draw(Wolf);
+            spriteBatch.Draw(Slime);
+            spriteBatch.End();*/
 
             base.Draw(gameTime);
         }
