@@ -26,11 +26,14 @@ namespace Fantasy_Game
         //Backgrounds
         Texture2D testBackground;
         //Entities
+        //Enemies
         Texture2D Dragon;
         Texture2D Spider;
         Texture2D Bat;
         Texture2D Wolf;
         Texture2D Slime;
+        //PLayer
+        Texture2D Player;
 
         //Time
         float fTimeIntervalSecs;
@@ -52,12 +55,7 @@ namespace Fantasy_Game
             Content.RootDirectory = "Content";
         }
 
-        /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
-        /// </summary>
+        //Initialize method
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
@@ -65,10 +63,7 @@ namespace Fantasy_Game
             base.Initialize();
         }
 
-        /// <summary>
-        /// LoadContent will be called once per game and is the place to load
-        /// all of your content.
-        /// </summary>
+        //Load content 
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
@@ -84,7 +79,8 @@ namespace Fantasy_Game
             Spider = Content.Load<Texture2D>("Spider");
             Bat = Content.Load<Texture2D>("Bat");
             Wolf = Content.Load<Texture2D>("Wolf");
-            Slime = Content.Load<Texture2D>("Slime");*/
+            Slime = Content.Load<Texture2D>("Slime");
+            Player = Content.Load<Texture2D>("Player");*/
         }
 
         //Unload content method
@@ -96,11 +92,47 @@ namespace Fantasy_Game
         //Update method
         protected override void Update(GameTime gameTime)
         {
+            //Escape exits game window
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+          
+            //User input
+            KeyboardState keyboardState = Keyboard.GetState();
+            if (keyboardState.IsKeyDown(Keys.Left) || keyboardState.IsKeyDown(Keys.A))
 
+            {
+                
+            }
+
+            if (keyboardState.IsKeyDown(Keys.Right) || keyboardState.IsKeyDown(Keys.D))
+            {
+                
+            }
+
+            if (keyboardState.IsKeyDown(Keys.Up) || keyboardState.IsKeyDown(Keys.W))
+            { 
+            
+            }
+
+            if (keyboardState.IsKeyDown(Keys.Down) || keyboardState.IsKeyDown(Keys.S))
+            { 
+                
+            }
+
+            if (keyboardState.IsKeyDown(Keys.Space))
+            { 
+                
+            }
+
+            //Stops player from walking back(Just rough code)
+            /*if (pos > viewportRect.Width || pos.X < 0)
+            {
+                
+            }*/
+
+           
+            //Timer
             fTimeIntervalSecs = ((float)gameTime.ElapsedGameTime.Milliseconds) / 1000.0f;
 
             base.Update(gameTime);
@@ -111,13 +143,15 @@ namespace Fantasy_Game
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            //Begin drawing
             spriteBatch.Begin();
+            //Draws entities
             /*spriteBatch.Draw(Dragon);
             spriteBatch.Draw(Spider);
             spriteBatch.Draw(Bat);
             spriteBatch.Draw(Wolf);
             spriteBatch.Draw(Slime);
+            spriteBatch.Draw(Player);
             spriteBatch.End();*/
 
             base.Draw(gameTime);
