@@ -26,3 +26,4 @@ C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x
 C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_sky_05.jpg
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_circle.png

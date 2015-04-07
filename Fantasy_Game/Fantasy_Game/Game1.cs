@@ -23,6 +23,7 @@ namespace Fantasy_Game
         Player playerObj;
 
         //Textures
+        Texture2D playerSprite;
         //Backgrounds
         Texture2D testBackground;
         //Entities
@@ -77,8 +78,9 @@ namespace Fantasy_Game
 
 
             // TODO: use this.Content to load your game content here
-
+            playerSprite = Content.Load<Texture2D>("blue_circle");
             testBackground = Content.Load<Texture2D>("blue_sky_05");
+            //playerObj = new Player(Content);
             //Load Entities
             /*Dragon = Content.Load<Texture2D>("Dragon");
             Spider = Content.Load<Texture2D>("Spider");
@@ -100,8 +102,9 @@ namespace Fantasy_Game
                 Exit();
 
             // TODO: Add your update logic here
-
             fTimeIntervalSecs = ((float)gameTime.ElapsedGameTime.Milliseconds) / 1000.0f;
+
+            //playerObj.PlayerUpdate(gameTime);
 
             base.Update(gameTime);
         }
@@ -118,7 +121,10 @@ namespace Fantasy_Game
             spriteBatch.Draw(Bat);
             spriteBatch.Draw(Wolf);
             spriteBatch.Draw(Slime); */
-            spriteBatch.Draw(testBackground, Vector2.Zero, Color.White);
+            
+            spriteBatch.Draw(testBackground, Vector2.Zero);
+            spriteBatch.Draw(playerSprite, new Vector2(50, 50), null,
+        Color.White, 0f, Vector2.Zero, 0.25f, SpriteEffects.None, 0f);
             spriteBatch.End();
 
             base.Draw(gameTime);
