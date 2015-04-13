@@ -34,5 +34,50 @@ namespace Fantasy_Game
         public int hp = 12; // an hp of 4 is one whole heart
         float movementSpeed = 10.0f;
         float jumpHeight = 5.0f;
+
+        /*
+        public Player(ContentManager content)
+            : base(content.Load<Texture2D>("blue_circle"),
+                    new Vector2(100, 300), new Vector2(10, 10), true, 0, 1.0f, SpriteEffects.None, null)
+        {
+
+        }
+        */
+        public void UpdateMovement()
+        {
+            //The keyboard state
+            KeyboardState keyState = Keyboard.GetState();
+
+            //Moving left
+            if(keyState.IsKeyDown(Keys.A))
+            {
+
+            }//Moving Right
+            else if(keyState.IsKeyDown(Keys.D))
+            {
+                
+            }
+
+            //Jumping
+            if (keyState.IsKeyDown(Keys.W))
+            {
+                //Check if the player is on the ground
+                if (isGrounded == true)
+                {
+                    //Jump
+
+                }
+                
+            }
+        }
+
+        public void PlayerUpdate(GameTime gameTime)
+        {
+            //The update function for the player
+
+            UpdateMovement();
+
+        }
+
     }
 }

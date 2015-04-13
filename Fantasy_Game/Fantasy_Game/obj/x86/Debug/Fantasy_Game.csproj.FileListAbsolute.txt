@@ -7,7 +7,6 @@ C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\W
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.Direct3D11.dll
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.DXGI.dll
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.Direct2D1.dll
-C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Lidgren.Network.dll
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.XInput.dll
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.RawInput.dll
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.Direct3D9.dll
@@ -25,3 +24,6 @@ C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb
 C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.exe
 C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_sky_05.jpg
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_circle.png
