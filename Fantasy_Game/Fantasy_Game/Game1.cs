@@ -16,6 +16,7 @@ namespace Fantasy_Game
     /// </summary>
     public class Game1 : Game
     {
+        //Just a test
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
