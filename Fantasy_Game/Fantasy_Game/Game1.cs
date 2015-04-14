@@ -16,6 +16,7 @@ namespace Fantasy_Game
     /// </summary>
     public class Game1 : Game
     {
+        //Just a test
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
@@ -99,11 +100,21 @@ namespace Fantasy_Game
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+<<<<<<< HEAD
 
             // TODO: Add your update logic here
 
           
             
+=======
+//<<<<<<< HEAD
+            // TODO: Add your update logic here
+//=======
+          
+            //User input
+           
+
+>>>>>>> origin/master
             //Stops player from walking back(Just rough code)
             /*if (pos > viewportRect.Width || pos.X < 0)
             {
@@ -112,6 +123,10 @@ namespace Fantasy_Game
 
            
             //Timer
+<<<<<<< HEAD
+=======
+//>>>>>>> origin/master
+>>>>>>> origin/master
             fTimeIntervalSecs = ((float)gameTime.ElapsedGameTime.Milliseconds) / 1000.0f;
 
             //playerObj.PlayerUpdate(gameTime);
@@ -137,6 +152,14 @@ namespace Fantasy_Game
             spriteBatch.Draw(testBackground, Vector2.Zero);
             playerObj.Draw(spriteBatch);
             spriteBatch.End();
+<<<<<<< HEAD
+=======
+//=======
+            //spriteBatch.Draw(Slime);
+            //spriteBatch.Draw(Player);
+            //spriteBatch.End();
+//>>>>>>> origin/master
+>>>>>>> origin/master
 
             base.Draw(gameTime);
         }
