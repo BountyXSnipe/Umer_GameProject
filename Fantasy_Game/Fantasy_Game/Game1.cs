@@ -99,37 +99,12 @@ namespace Fantasy_Game
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             // TODO: Add your update logic here
-=======
+//=======
           
             //User input
-            KeyboardState keyboardState = Keyboard.GetState();
-            if (keyboardState.IsKeyDown(Keys.Left) || keyboardState.IsKeyDown(Keys.A))
-
-            {
-                
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Right) || keyboardState.IsKeyDown(Keys.D))
-            {
-                
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Up) || keyboardState.IsKeyDown(Keys.W))
-            { 
-            
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Down) || keyboardState.IsKeyDown(Keys.S))
-            { 
-                
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Space))
-            { 
-                
-            }
+           
 
             //Stops player from walking back(Just rough code)
             /*if (pos > viewportRect.Width || pos.X < 0)
@@ -139,7 +114,7 @@ namespace Fantasy_Game
 
            
             //Timer
->>>>>>> origin/master
+//>>>>>>> origin/master
             fTimeIntervalSecs = ((float)gameTime.ElapsedGameTime.Milliseconds) / 1000.0f;
 
             //playerObj.PlayerUpdate(gameTime);
@@ -166,11 +141,11 @@ namespace Fantasy_Game
             spriteBatch.Draw(playerSprite, new Vector2(50, 50), null,
         Color.White, 0f, Vector2.Zero, 0.25f, SpriteEffects.None, 0f);
             spriteBatch.End();
-=======
-            spriteBatch.Draw(Slime);
-            spriteBatch.Draw(Player);
-            spriteBatch.End();*/
->>>>>>> origin/master
+//=======
+            //spriteBatch.Draw(Slime);
+            //spriteBatch.Draw(Player);
+            //spriteBatch.End();
+//>>>>>>> origin/master
 
             base.Draw(gameTime);
         }
