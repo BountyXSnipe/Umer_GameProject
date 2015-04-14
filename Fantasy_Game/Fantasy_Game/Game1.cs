@@ -47,6 +47,7 @@ namespace Fantasy_Game
         float force;
 
         //Level
+        //Forest, Mountain, Cave, Boss
         int currentLevel = 1; //up to 5 levels
 
         public Game1()
@@ -73,9 +74,9 @@ namespace Fantasy_Game
 
 
             // TODO: use this.Content to load your game content here
-            playerSprite = Content.Load<Texture2D>("blue_circle");
             testBackground = Content.Load<Texture2D>("blue_sky_05");
-            //playerObj = new Player(Content);
+            playerObj = new Player(Content.Load<Texture2D>("blue_circle"), new Vector2 (50,50), Vector2.Zero,
+               true, 0.25f);
             //Load Entities
             /*Dragon = Content.Load<Texture2D>("Dragon");
             Spider = Content.Load<Texture2D>("Spider");
@@ -98,38 +99,11 @@ namespace Fantasy_Game
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-<<<<<<< HEAD
+
             // TODO: Add your update logic here
-=======
+
           
-            //User input
-            KeyboardState keyboardState = Keyboard.GetState();
-            if (keyboardState.IsKeyDown(Keys.Left) || keyboardState.IsKeyDown(Keys.A))
-
-            {
-                
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Right) || keyboardState.IsKeyDown(Keys.D))
-            {
-                
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Up) || keyboardState.IsKeyDown(Keys.W))
-            { 
             
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Down) || keyboardState.IsKeyDown(Keys.S))
-            { 
-                
-            }
-
-            if (keyboardState.IsKeyDown(Keys.Space))
-            { 
-                
-            }
-
             //Stops player from walking back(Just rough code)
             /*if (pos > viewportRect.Width || pos.X < 0)
             {
@@ -138,10 +112,10 @@ namespace Fantasy_Game
 
            
             //Timer
->>>>>>> origin/master
             fTimeIntervalSecs = ((float)gameTime.ElapsedGameTime.Milliseconds) / 1000.0f;
 
             //playerObj.PlayerUpdate(gameTime);
+            playerObj.UpdateMovement();
 
             base.Update(gameTime);
         }
@@ -158,18 +132,11 @@ namespace Fantasy_Game
             spriteBatch.Draw(Spider);
             spriteBatch.Draw(Bat);
             spriteBatch.Draw(Wolf);
-<<<<<<< HEAD
             spriteBatch.Draw(Slime); */
             
             spriteBatch.Draw(testBackground, Vector2.Zero);
-            spriteBatch.Draw(playerSprite, new Vector2(50, 50), null,
-        Color.White, 0f, Vector2.Zero, 0.25f, SpriteEffects.None, 0f);
+            playerObj.Draw(spriteBatch);
             spriteBatch.End();
-=======
-            spriteBatch.Draw(Slime);
-            spriteBatch.Draw(Player);
-            spriteBatch.End();*/
->>>>>>> origin/master
 
             base.Draw(gameTime);
         }

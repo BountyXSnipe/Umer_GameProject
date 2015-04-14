@@ -22,6 +22,11 @@ namespace Fantasy_Game
 
     }
 
+    class Slime : Enemy
+    {
+        Texture2D slimeSprite;
+    }
+
     class Spider : Enemy
     {
         Texture2D spiderSprite;

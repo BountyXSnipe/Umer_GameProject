@@ -1,3 +1,8 @@
+C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.exe
+C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_sky_05.jpg
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_circle.png
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Fantasy_Game.exe
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Fantasy_Game.pdb
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\MonoGame.Framework.dll
@@ -10,6 +15,7 @@ C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\W
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.XInput.dll
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.RawInput.dll
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\MonoGame.Framework.xml
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.MediaFoundation.xml
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.xml
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.XAudio2.xml
@@ -19,11 +25,5 @@ C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\W
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.XInput.xml
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\SharpDX.Direct3D9.xml
-C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.csprojResolveAssemblyReference.cache
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.exe
 C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb
-C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.exe
-C:\Users\Tyler\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\obj\x86\Debug\Fantasy_Game.pdb
-C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_sky_05.jpg
-C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\MonoGame.Framework.xml
-C:\Users\Kevin\Documents\GitHub\Umer_GameProject\Fantasy_Game\Fantasy_Game\bin\Windows\Debug\Content\blue_circle.png
